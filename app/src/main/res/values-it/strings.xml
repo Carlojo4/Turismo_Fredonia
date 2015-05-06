@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Turismo Fredonia</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="wellcome">Benvenuti in tourist Fredonia </string>
+    <string name="hoteles">ALBERGHI</string>
+    <string name="bares">BAR</string>
+    <string name="turismo">EVENTI O LUOGHI TURISTICI</string>
+    <string name="info">INFORMAZIONE</string>
+    <string name="acerca">INFORMAZIONI...</string>
+    <string name="title_activity_hotel">alberghi</string>
+    <string name="volver">ritorno</string>
+    <string name="hotel1_n">HOTEL Cerro Bravo</string>
+    <string name="hotel1_t">Tel: 840-32-52.</string>
+    <string name="hotel1_l">parco principale</string>
+    <string name="hotel2_n">HOTEL Los Robles</string>
+    <string name="hotel2_t">Tel: 842-23-47.</string>
+    <string name="hotel2_l">Corner Cra50 con Clle47</string>
+    <string name="hotel3_n">HOTEL Poblanco</string>
+    <string name="hotel3_t">Tel: 840-14-22.</string>
+    <string name="hotel3_l">Cra50 N°50-54.</string>
+    <string name="title_activity_bar">Bar</string>
+    <string name="bar1_n">BAR El Charquito</string>
+    <string name="bar1_t">Tel: 840-20-22.</string>
+    <string name="bar1_l">parco principale</string>
+    <string name="bar2_n">TABERNA El Chorrito</string>
+    <string name="bar2_t">Tel: 840-27-76.</string>
+    <string name="bar2_l">parco principale</string>
+    <string name="bar3_n">HELADERIA Montecarlo</string>
+    <string name="bar3_t">Tel: 840-12-40.</string>
+    <string name="bar3_l">parco principale</string>
+    <string name="title_activity_turism">Turismo</string>
+    <string name="site1_n">Cerro Bravo</string>
+    <string name="site1_t">Forest reserve, Volcano before</string>
+    <string name="site1_l">tra Fredonia e Venecia.</string>
+    <string name="site2_n">Cerro Combia</string>
+    <string name="site2_t">Cristo Rey´s and La Cruz´s parks</string>
+    <string name="site2_l">In cima alla collina</string>
+    <string name="site3_n">festa annuale:</string>
+    <string name="site3_t">COFFEE FESTIVAL.</string>
+    <string name="site3_l">Come regione del caffe per eccellenza, da Dic 25 al 28 Dic.</string>
+    <string name="title_activity_info">Informazione</string>
+    <string name="info1">Località: Una città di Sud Antioquia confina con Tarso, Venezia, Jericó, Amaga, Caldas, tra gli altri. </string>
+    <string name="info2">Il suo clima e molto vario, presenta un terreno molto accidentato, si estende su una superficie di 247 km2 e un´altitudine di 1800 metri sul livello del mare. </string>
+    <string name="info3">Lo scudo mostrare il prodotto che identifica, il caffè, che è il più forte per l´economia di questa bellissima città.</string>
+    <string name="title_activity_about">Informazioni...</string>
+    <string name="acercade">Applicazione per promuovere la citta come un sito turistico Fredonia, fornendo informazioni su luoghi ed eventi di interesse. Sviluppato nel corso dello sviluppo di applicazioni mobili presso l´Universita di Antioquia, da Carlos José Cortés Rivera. </string>
+
+</resources>
