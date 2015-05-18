@@ -15,26 +15,6 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void AbrirHoteles(View view){
-        Intent i = new Intent(this,HotelActivity.class);
-        startActivity(i);
-    }
-    public void AbrirBares(View view){
-        Intent i = new Intent(this,BarActivity.class);
-        startActivity(i);
-    }
-    public void AbrirTurismo(View view){
-        Intent i = new Intent(this,TurismActivity.class);
-        startActivity(i);
-    }
-    public void AbrirInfo(View view){
-        Intent i = new Intent(this,InfoActivity.class);
-        startActivity(i);
-    }
-    public void AbrirAcercaDe(View view){
-        Intent i = new Intent(this,AboutActivity.class);
-        startActivity(i);
-    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
