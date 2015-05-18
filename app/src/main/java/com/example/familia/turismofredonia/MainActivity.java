@@ -51,9 +51,27 @@ public class MainActivity extends ActionBarActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        if (id == R.id.action_hoteles) {
+            Intent i = new Intent(this,HotelActivity.class);
+            startActivity(i);
         }
+        else if (id == R.id.action_bares) {
+            Intent i = new Intent(this,BarActivity.class);
+            startActivity(i);
+        }
+        else if (id == R.id.action_turismo) {
+            Intent i = new Intent(this,TurismActivity.class);
+            startActivity(i);
+        }
+        else if (id == R.id.action_about) {
+            Intent i = new Intent(this,AboutActivity.class);
+            startActivity(i);
+        }
+        else if (id == R.id.action_info) {
+            Intent i = new Intent(this,InfoActivity.class);
+            startActivity(i);
+        }
+
 
         return super.onOptionsItemSelected(item);
     }

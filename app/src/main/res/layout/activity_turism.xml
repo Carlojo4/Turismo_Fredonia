@@ -3,12 +3,12 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bandera"
-    android:weightSum="5"
+    android:weightSum="4"
     android:gravity="center">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_weight="1.1"
         android:gravity="center">
         <TextView
             android:text="@string/turismo"
@@ -131,19 +131,6 @@
                 android:layout_height="wrap_content"
                 />
         </LinearLayout>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:gravity="right">
-        <Button
-            android:id="@+id/bvolver"
-            android:onClick="volver"
-            android:text="@string/volver"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            />
     </LinearLayout>
 
 </LinearLayout>

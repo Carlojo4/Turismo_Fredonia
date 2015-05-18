@@ -16,8 +16,7 @@ public class BarActivity extends ActionBarActivity {
         setContentView(R.layout.activity_bar);
     }
     public void volver(View view){
-        Intent i = new Intent(this,MainActivity.class);
-        startActivity(i);
+
     }
 
     @Override
@@ -35,8 +34,9 @@ public class BarActivity extends ActionBarActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        if (id == R.id.action_volver) {
+            Intent i = new Intent(this,MainActivity.class);
+            startActivity(i);
         }
 
         return super.onOptionsItemSelected(item);
