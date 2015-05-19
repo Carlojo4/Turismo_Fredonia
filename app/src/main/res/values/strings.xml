@@ -47,4 +47,7 @@
     <string name="title_activity_about">Acerca de...</string>
     <string name="acercade">Aplicación para promocionar el municipio de Fredonia como sitio turístico, dando información sobre sitios y eventos de interes. Desarrollada en el curso de Desarrollo de aplicaciones moviles de la Universidad de Antioquia. Por Carlos José Cortés Rivera.</string>
 
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

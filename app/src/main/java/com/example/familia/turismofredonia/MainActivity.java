@@ -1,5 +1,7 @@
 package com.example.familia.turismofredonia;
 
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -25,31 +27,42 @@ public class MainActivity extends ActionBarActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
+
         int id = item.getItemId();
 
+        FragmentManager fragmentManager = getFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_hoteles) {
-            Intent i = new Intent(this,HotelActivity.class);
-            startActivity(i);
+
+            HotelsFragment fragment = new HotelsFragment();
+            fragmentTransaction.replace(android.R.id.content,fragment).commit();
+            /*Intent i = new Intent(this,HotelActivity.class);
+            startActivity(i);*/
         }
         else if (id == R.id.action_bares) {
-            Intent i = new Intent(this,BarActivity.class);
-            startActivity(i);
+            BarsFragment fragment = new BarsFragment();
+            fragmentTransaction.replace(android.R.id.content,fragment).commit();
+            /*Intent i = new Intent(this,BarActivity.class);
+            startActivity(i);*/
         }
         else if (id == R.id.action_turismo) {
-            Intent i = new Intent(this,TurismActivity.class);
-            startActivity(i);
+            TurismFragment fragment = new TurismFragment();
+            fragmentTransaction.replace(android.R.id.content,fragment).commit();
+            /*Intent i = new Intent(this,TurismActivity.class);
+            startActivity(i);*/
         }
         else if (id == R.id.action_about) {
-            Intent i = new Intent(this,AboutActivity.class);
-            startActivity(i);
+            AboutFragment fragment = new AboutFragment();
+            fragmentTransaction.replace(android.R.id.content,fragment).commit();
+            /*Intent i = new Intent(this,AboutActivity.class);
+            startActivity(i);*/
         }
         else if (id == R.id.action_info) {
-            Intent i = new Intent(this,InfoActivity.class);
-            startActivity(i);
+            InfoFragment fragment = new InfoFragment();
+            fragmentTransaction.replace(android.R.id.content,fragment).commit();
+            /*Intent i = new Intent(this,InfoActivity.class);
+            startActivity(i);*/
         }
 
 
