@@ -1,5 +1,7 @@
 package com.example.familia.turismofredonia;
 
+//import android.support.v4.app.FragmentManager;
+//import android.support.v4.app.FragmentTransaction;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.Intent;
@@ -63,6 +65,10 @@ public class MainActivity extends ActionBarActivity {
             fragmentTransaction.replace(android.R.id.content,fragment).commit();
             /*Intent i = new Intent(this,InfoActivity.class);
             startActivity(i);*/
+        }
+        else if (id == R.id.action_map) {
+            Intent i = new Intent(this,MapActivity.class);
+            startActivity(i);
         }
 
 
